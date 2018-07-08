@@ -3,8 +3,6 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { fetchWeather } from '../actions/index';
 
-const API_KEY = '0f9d51978435a42b60965210b8db2be0';
-
 class SearchBar extends Component {
   constructor(props) {
     super();
@@ -46,7 +44,7 @@ function mapDispathToProps(dispatch) {
 }
 
 function mapStateToProps(state) {
-  
+
 }
 
 export default connect(null, mapDispathToProps)(SearchBar);
